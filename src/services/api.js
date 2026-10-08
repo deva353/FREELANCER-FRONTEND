@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-    baseURL: "https://freelancer-backend-theta.vercel.app/"
+    baseURL: "https://freelancer-backend-theta.vercel.app/api"
 });
 
 API.interceptors.request.use(
